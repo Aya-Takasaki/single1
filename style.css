@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+  margin: 0 auto;
+  max-width: 960px;
+  box-sizing: inherit;
+  
+}
+.header__logo {
+  max-width: 100%;
+  margin: 0;
+}
+
+.header__right ul {
+  display: flex;
+}
+
+.header__right li {
+  list-style: none;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.mainvisual img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.main__wrapper {
+  max-width: 960px;
+  margin: 0 auto 100px auto;
+  padding: 0 4%;
+  text-align: center;
+}
+.section__title {
+  font-size: 2rem;
+  margin-bottom: 60px;
+  border-bottom: solid 1px #383e45;
+  text-align: center;
+}
+
+#about img {
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.content {
+  display: flex;
+  width: 80%;
+}
+
+.test {
+  text-align: left;
+}
+
+.bicycle__images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bicycle__images li {
+  list-style: none;
+}
+
+.bicycle__images h3 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
